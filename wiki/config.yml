@@ -121,11 +121,14 @@ git:
     # Only for Basic authentication:
     username: $(WIKI_GIT_USERNAME)
     password: $(WIKI_GIT_PASSWORD)
-
+ 
     # Only for SSH authentication:
-    privateKey: $(SSH_KEY)
+    #privateKey: $(SSH_KEY)
 
     sslVerify: true
+  signature:
+    name: Davide
+    email: d.tresoldi5@gmail.com
 
   # Default email to use as commit author
   serverEmail: $(WIKI_SERVER_EMAIL)
